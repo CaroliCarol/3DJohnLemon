@@ -33,9 +33,9 @@ public class PlayerMovement : MonoBehaviour
         Quaternion m_Rotation = Quaternion.identity;
 
     }
-    
+
     void OnAnimatorMove ()
     {
-
+        m_Rigidbody.MovePosition (m_Rigidbody.position + m_Movement * m_Animator.deltaPosition.magnitude);
     }
 }
