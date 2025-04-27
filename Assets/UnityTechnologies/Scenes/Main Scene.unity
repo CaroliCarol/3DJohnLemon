@@ -123,6 +123,12 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 23800000, guid: d1dc59e015faaeb49bddb8254be6ddda, type: 2}
+--- !u!1 &265064654 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5430411389641684436, guid: c858bac350da81a438ab01e510126af5,
+    type: 3}
+  m_PrefabInstance: {fileID: 96174583229016106}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &265064659 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5430411389641714164, guid: c858bac350da81a438ab01e510126af5,
@@ -979,6 +985,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a7a4fbe7eabc6941bb5c33bb66a19a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  fadeDuration: 1
+  displayImageDuration: 1
+  player: {fileID: 265064654}
+  exitBackgroundImageCanvasGroup: {fileID: 1250736970}
 --- !u!1001 &2057199018
 PrefabInstance:
   m_ObjectHideFlags: 0
