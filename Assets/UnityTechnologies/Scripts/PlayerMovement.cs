@@ -8,6 +8,7 @@ public class PlayerMovement : MonoBehaviour
     Animator m_Animator;
     Rigidbody m_Rigidbody;
     Vector3 m_Movement;
+    Quaternion m_Rotation = Quaternion.identity;
 
     // Start is called before the first frame update
     void Start()
@@ -30,7 +31,7 @@ public class PlayerMovement : MonoBehaviour
         bool isWalking = hasHorizontalInput || hasVerticalInput;
         m_Animator.SetBool ("IsWalking", isWalking);
         Vector3 desiredForward = Vector3.RotateTowards (transform.forward, m_Movement, turnSpeed * Time.deltaTime, 0f);
-        Quaternion m_Rotation = Quaternion.identity;
+        m_Rotation = Quaternion.LookRotation (desiredForward);
 
     }
 
