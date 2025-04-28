@@ -466,6 +466,14 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!81 &265064661
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 265064654}
+  m_Enabled: 1
 --- !u!1 &315236370
 GameObject:
   m_ObjectHideFlags: 0
@@ -848,7 +856,6 @@ GameObject:
   m_Component:
   - component: {fileID: 542830113}
   - component: {fileID: 542830112}
-  - component: {fileID: 542830111}
   - component: {fileID: 542830114}
   - component: {fileID: 542830115}
   - component: {fileID: 542830116}
@@ -859,14 +866,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &542830111
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 542830110}
-  m_Enabled: 1
 --- !u!20 &542830112
 Camera:
   m_ObjectHideFlags: 0
@@ -5916,6 +5915,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 265064660}
+    - targetCorrespondingSourceObject: {fileID: 5430411389641684436, guid: c858bac350da81a438ab01e510126af5,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 265064661}
   m_SourcePrefab: {fileID: 100100000, guid: c858bac350da81a438ab01e510126af5, type: 3}
 --- !u!1001 &3049639972597436527
 PrefabInstance:
